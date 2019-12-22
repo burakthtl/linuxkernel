@@ -1,0 +1,1 @@
+obj-y := setnice_inc.o
