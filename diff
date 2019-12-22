@@ -1,0 +1,46 @@
+burak@burak-TECRA:~/Masaüstü/homeworks/system homework/a2$ diff fork.c fork1.c
+1678a1679
+> 	p->nice_inc=p->real_parent ->nice_inc;
+
+
+
+
+burak@burak-TECRA:~/Masaüstü/homeworks/system homework/a2$ diff init_task.h init_task1.h
+221a222
+>         .nice_inc       = 2                                             \
+
+
+
+
+burak@burak-TECRA:~/Masaüstü/homeworks/system homework/a2$ diff Makefile Makefile1
+571c571
+< core-y		:= usr/
+---
+> core-y		:= usr/ setnice_inc/
+
+
+
+
+burak@burak-TECRA:~/Masaüstü/homeworks/system homework/a2$ diff sched.h sched1.h1835a1836,1837
+> #endif
+> 	int nice_inc;
+
+
+
+
+
+burak@burak-TECRA:~/Masaüstü/homeworks/system homework/a2$ diff syscall_32.tbl syscall_321.tbl
+385a386
+> 377	i386	nice_inc		sys_nice_inc
+
+
+
+
+
+
+
+burak@burak-TECRA:~/Masaüstü/homeworks/system homework/a2$ diff syscalls.h syscalls1.h
+891a892,893
+> asmlinkage long set_nice_inc(pid_t pid, int value);
+> 
+

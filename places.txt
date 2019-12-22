@@ -1,0 +1,8 @@
+kernel.c                /home/itucs/Desktop/linux-source-4.4.0/kernel/fork.c
+syscall.c		/home/itucs/Desktop/linux-source-4.4.0/include/lin
+syscall_32.tbl	        /home/itucs/Desktop/linux-source-4.4.0/arch/x86/syscalls
+sched.h			/home/itucs/Desktop/linux-source-4.4.0/include/linux
+init_task.h		/home/itucs/Desktop/linux-source-4.4.0/include/linux
+Makefile 		/home/itucs/Desktop/linux-source-4.4.0
+
+
